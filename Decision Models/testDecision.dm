@@ -1,22 +1,22 @@
 {
     "decisiontable": {
         "modifiedUserName": "policyadmin",
-        "lastModifiedDate": "2021-01-22T11:05:58",
+        "lastModifiedDate": "2021-01-22T11:31:11",
         "displayName": "New Decision Table",
         "hitPolicy": "UNIQUE",
         "description": "Design a new Decision Table by adding inputs and outputs.",
         "rules": [
             {
-                "comments": "",
+                "comments": "test rule",
                 "outputEntry": [{
                     "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
                     "attributeName": null,
                     "id": null,
-                    "text": ""
+                    "text": "\"test\""
                 }],
                 "inputEntry": [{
                     "domainName": "testObj",
-                    "text": "name = NO_VALUE"
+                    "text": "(name = \"test\")"
                 }],
                 "operationEntry": {
                     "isWorkflowCallable": {},
@@ -43,16 +43,16 @@
                 }
             },
             {
-                "comments": "",
+                "comments": "Collabtest1",
                 "outputEntry": [{
                     "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
                     "attributeName": null,
                     "id": null,
-                    "text": ""
+                    "text": "\"test\""
                 }],
                 "inputEntry": [{
                     "domainName": "testObj",
-                    "text": "name = NO_VALUE"
+                    "text": "(name = \"test1\")"
                 }],
                 "operationEntry": {
                     "isWorkflowCallable": {},
