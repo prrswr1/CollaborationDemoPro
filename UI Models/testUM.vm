@@ -1,0 +1,45 @@
+{"editors": {
+    "variables": {},
+    "tabName": "testUM.vm",
+    "packIcon": {
+        "fileJson": "",
+        "fileName": "",
+        "displayName": "",
+        "source": "",
+        "projectName": "",
+        "type": "image"
+    },
+    "isValid": true,
+    "index": 0,
+    "url": "/rest",
+    "customVariables": {
+        "checksum_old": "",
+        "list": [],
+        "checksum_new": 0
+    },
+    "customClasses": {},
+    "pages": [{
+        "pageLifeCycle": {
+            "selectedlifecycle": "",
+            "lifeCycle": []
+        },
+        "checksum_old": "",
+        "defaultPage": true,
+        "validName": true,
+        "name": "View1",
+        "id": "xxx_3982014",
+        "validUrl": true,
+        "routingUrl": "view1",
+        "content": {
+            "css": ".wrapper_asg_bkgrd",
+            "wrapperclasses": ["wrapper_asg_bkgrd"],
+            "wrapperstyles": "",
+            "html": "<div ui-modeller-type=\"header\" id=\"header-pqikobz9cgj\" label=\"View-1\" class=\"header\"><span id=\"span-evqzn5uj27w\">View-1<\/span><\/div><div ui-modeller-type=\"um-container\" id=\"um-container-q6ccs90suc\" class=\"um-control\"><button ui-modeller-type=\"button\" label=\"Send Notification\" color=\"primary\" mat-flat-button=\"\" badgecolor=\"#ff4081\" badgesize=\"small\" badgeposition=\"above after\" badgetextcolor=\"#ffffff\" badgeoverlap=\"yes\" iconpos=\"left\" id=\"button-m94k48s5koc\" validations-id-mapping=\"{&quot;Id&quot;:&quot;fb7a92ff-9507-46a8-b266-78fb888b293b&quot;}\" smopened=\"none\" webservices=\"{&quot;click&quot;:{&quot;disableEditor&quot;:false,&quot;isSaved&quot;:true,&quot;name&quot;:&quot;click&quot;,&quot;content&quot;:&quot;{\\&quot;collaboration\\&quot;:{},\\&quot;process\\&quot;:{\\&quot;id\\&quot;:\\&quot;Process_1\\&quot;,\\&quot;startEvent\\&quot;:{\\&quot;id\\&quot;:\\&quot;StartEvent_9lbdd\\&quot;,\\&quot;name\\&quot;:\\&quot;start\\&quot;,\\&quot;businessProp\\&quot;:{\\&quot;blockId\\&quot;:\\&quot;StartEvent_9lbdd\\&quot;},\\&quot;type\\&quot;:\\&quot;bpmn:startEvent\\&quot;,\\&quot;outgoing\\&quot;:\\&quot;SequenceFlow_vb1iln\\&quot;},\\&quot;processTask\\&quot;:{\\&quot;id\\&quot;:\\&quot;ProcessTask_uz4ruqg\\&quot;,\\&quot;name\\&quot;:\\&quot;testProcess\\&quot;,\\&quot;businessProp\\&quot;:{\\&quot;blockId\\&quot;:\\&quot;ProcessTask_uz4ruqg\\&quot;,\\&quot;processName\\&quot;:\\&quot;{\\\\\\&quot;name\\\\\\&quot;:\\\\\\&quot;testProcess.pm\\\\\\&quot;,\\\\\\&quot;type\\\\\\&quot;:2,\\\\\\&quot;parentName\\\\\\&quot;:\\\\\\&quot;Process Models\\\\\\&quot;,\\\\\\&quot;location\\\\\\&quot;:\\\\\\&quot;/CollaborationDemoPro/Process Models\\\\\\&quot;,\\\\\\&quot;properties\\\\\\&quot;:{\\\\\\&quot;isWorkspaceReady\\\\\\&quot;:false,\\\\\\&quot;uiModels\\\\\\&quot;:[]},\\\\\\&quot;meta\\\\\\&quot;:\\\\\\&quot;{}\\\\\\&quot;,\\\\\\&quot;size\\\\\\&quot;:0,\\\\\\&quot;errorMessage\\\\\\&quot;:null,\\\\\\&quot;parentId\\\\\\&quot;:\\\\\\&quot;dca51c68-8de0-4a80-b34f-56c850f173d0\\\\\\&quot;,\\\\\\&quot;projectId\\\\\\&quot;:\\\\\\&quot;7b2ea5a7-1d79-43b5-8e87-2be0433a6408\\\\\\&quot;,\\\\\\&quot;referenceId\\\\\\&quot;:\\\\\\&quot;e56acbf8-a80f-4e53-9fbc-c133b1ba07e7\\\\\\&quot;,\\\\\\&quot;namespaceId\\\\\\&quot;:\\\\\\&quot;\\\\\\&quot;,\\\\\\&quot;content\\\\\\&quot;:null,\\\\\\&quot;id\\\\\\&quot;:\\\\\\&quot;1712c2d9-3302-47cb-b0f3-cf2e3e9ae8b8\\\\\\&quot;,\\\\\\&quot;createdOn\\\\\\&quot;:\\\\\\&quot;2021-01-22T16:07:31.985+05:30\\\\\\&quot;,\\\\\\&quot;modifiedOn\\\\\\&quot;:\\\\\\&quot;2021-01-22T16:07:58.845+05:30\\\\\\&quot;,\\\\\\&quot;modifiedBy\\\\\\&quot;:null,\\\\\\&quot;createdBy\\\\\\&quot;:null,\\\\\\&quot;rolePack\\\\\\&quot;:null,\\\\\\&quot;buildProgress\\\\\\&quot;:false,\\\\\\&quot;contentAsString\\\\\\&quot;:\\\\\\&quot;\\\\\\&quot;,\\\\\\&quot;contentAsBytes\\\\\\&quot;:null}\\&quot;,\\&quot;parameters\\&quot;:[]},\\&quot;events\\&quot;:[],\\&quot;type\\&quot;:\\&quot;bpmn:processTask\\&quot;,\\&quot;outgoing\\&quot;:\\&quot;SequenceFlow_jex7b\\&quot;,\\&quot;incoming\\&quot;:\\&quot;SequenceFlow_vb1iln\\&quot;},\\&quot;endEvent\\&quot;:{\\&quot;id\\&quot;:\\&quot;EndEvent_htkned\\&quot;,\\&quot;name\\&quot;:\\&quot;stop\\&quot;,\\&quot;businessProp\\&quot;:{\\&quot;blockId\\&quot;:\\&quot;EndEvent_htkned\\&quot;},\\&quot;type\\&quot;:\\&quot;bpmn:endEvent\\&quot;,\\&quot;incoming\\&quot;:\\&quot;SequenceFlow_jex7b\\&quot;},\\&quot;sequenceFlow\\&quot;:[{\\&quot;id\\&quot;:\\&quot;SequenceFlow_vb1iln\\&quot;,\\&quot;sourceRef\\&quot;:\\&quot;StartEvent_9lbdd\\&quot;,\\&quot;targetRef\\&quot;:\\&quot;ProcessTask_uz4ruqg\\&quot;,\\&quot;businessProp\\&quot;:{},\\&quot;type\\&quot;:\\&quot;bpmn:sequenceFlow\\&quot;,\\&quot;name\\&quot;:\\&quot;\\&quot;},{\\&quot;id\\&quot;:\\&quot;SequenceFlow_jex7b\\&quot;,\\&quot;sourceRef\\&quot;:\\&quot;ProcessTask_uz4ruqg\\&quot;,\\&quot;targetRef\\&quot;:\\&quot;EndEvent_htkned\\&quot;,\\&quot;businessProp\\&quot;:{},\\&quot;type\\&quot;:\\&quot;bpmn:sequenceFlow\\&quot;,\\&quot;name\\&quot;:\\&quot;\\&quot;}]},\\&quot;BPMNDiagram\\&quot;:{\\&quot;BPMNPlane\\&quot;:{\\&quot;BPMNEdge\\&quot;:[{\\&quot;id\\&quot;:\\&quot;SequenceFlow_vb1iln_ve\\&quot;,\\&quot;waypoint\\&quot;:[{\\&quot;x\\&quot;:\\&quot;182.00000217556953\\&quot;,\\&quot;y\\&quot;:\\&quot;122.00000154972076\\&quot;},{\\&quot;x\\&quot;:\\&quot;235.50000108778477\\&quot;,\\&quot;y\\&quot;:\\&quot;122.00000154972076\\&quot;},{\\&quot;x\\&quot;:\\&quot;235.50000108778477\\&quot;,\\&quot;y\\&quot;:\\&quot;218.00000427246093\\&quot;},{\\&quot;x\\&quot;:\\&quot;289\\&quot;,\\&quot;y\\&quot;:\\&quot;218.00000427246093\\&quot;}],\\&quot;bpmnElement\\&quot;:\\&quot;SequenceFlow_vb1iln\\&quot;},{\\&quot;id\\&quot;:\\&quot;SequenceFlow_jex7b_ve\\&quot;,\\&quot;waypoint\\&quot;:[{\\&quot;x\\&quot;:\\&quot;459.0000043064356\\&quot;,\\&quot;y\\&quot;:\\&quot;218.00000720828777\\&quot;},{\\&quot;x\\&quot;:\\&quot;501.5000021532178\\&quot;,\\&quot;y\\&quot;:\\&quot;218.00000720828777\\&quot;},{\\&quot;x\\&quot;:\\&quot;501.5000021532178\\&quot;,\\&quot;y\\&quot;:\\&quot;294\\&quot;},{\\&quot;x\\&quot;:\\&quot;544\\&quot;,\\&quot;y\\&quot;:\\&quot;294\\&quot;}],\\&quot;bpmnElement\\&quot;:\\&quot;SequenceFlow_jex7b\\&quot;}],\\&quot;BPMNShape\\&quot;:[{\\&quot;id\\&quot;:\\&quot;StartEvent_9lbdd_ve\\&quot;,\\&quot;Bounds\\&quot;:{\\&quot;x\\&quot;:146.00000217556953,\\&quot;y\\&quot;:104.00000154972076,\\&quot;cx\\&quot;:164.00000217556953,\\&quot;cy\\&quot;:133.20312654972076,\\&quot;width\\&quot;:36,\\&quot;height\\&quot;:58.40625},\\&quot;bpmnElement\\&quot;:\\&quot;StartEvent_9lbdd\\&quot;},{\\&quot;id\\&quot;:\\&quot;ProcessTask_uz4ruqg_ve\\&quot;,\\&quot;Bounds\\&quot;:{\\&quot;x\\&quot;:289.0000043064356,\\&quot;y\\&quot;:197.02000720828778,\\&quot;cx\\&quot;:374.0000043064356,\\&quot;cy\\&quot;:218.0000067505241,\\&quot;width\\&quot;:170,\\&quot;height\\&quot;:41.959999084472656},\\&quot;bpmnElement\\&quot;:\\&quot;ProcessTask_uz4ruqg\\&quot;},{\\&quot;id\\&quot;:\\&quot;EndEvent_htkned_ve\\&quot;,\\&quot;Bounds\\&quot;:{\\&quot;x\\&quot;:544.0000081062317,\\&quot;y\\&quot;:276.0000041127205,\\&quot;cx\\&quot;:562.0000081062317,\\&quot;cy\\&quot;:305.2031291127205,\\&quot;width\\&quot;:36,\\&quot;height\\&quot;:58.40625},\\&quot;bpmnElement\\&quot;:\\&quot;EndEvent_htkned\\&quot;}]},\\&quot;id\\&quot;:\\&quot;Process_1_ve\\&quot;,\\&quot;bpmnElement\\&quot;:\\&quot;Process_1\\&quot;}}&quot;,&quot;id&quot;:&quot;process_editor_click 1611312053969&quot;,&quot;description&quot;:&quot;&quot;,&quot;eventType&quot;:0,&quot;scriptId&quot;:&quot;scriptID_b0fk18&quot;}}\" SMVariables=\"{}\" class=\"um-button-icon um-mat-button um-primary-button mat-flat-button mat-primary\"><span data-label-wrapper=\"\" data-invisible=\"\" id=\"span-ayx926jbqwv\" class=\"mat-button-wrapper\">Send Notification<\/span><span data-menu-wrapper=\"\" id=\"span-nlfm73eejer\" class=\"button-menu-span\"><\/span><div data-invisible=\"\" matripple=\"\" id=\"div-2t6j44qvzkg\" class=\"mat-button-ripple mat-ripple\"><\/div><div data-invisible=\"\" id=\"div-j7y68m93ymh\" class=\"mat-button-focus-overlay\"><\/div><\/button><\/div>"
+        },
+        "checksum_new": 119162888
+    }],
+    "assets": [],
+    "id": "mdt_visual_editor_root",
+    "validations": {},
+    "globalCss": "*{ box-sizing: border-box; } body{margin: 0;} .fix8d0a106e05b2{position: fixed;}"
+}}

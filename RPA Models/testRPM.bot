@@ -1,0 +1,165 @@
+{
+    "variables": [],
+    "isDebbugerEnable": "false",
+    "isValidSequence": true,
+    "breakPointEnable": "true",
+    "modelerModel": {
+        "process": {
+            "sequenceFlow": [
+                {
+                    "targetRef": "OpenTask_1091fme",
+                    "businessProp": {},
+                    "name": "",
+                    "tasktCommandName": "sequenceFlow",
+                    "id": "SequenceFlow_1cboik8",
+                    "sourceRef": "StartEvent_g8syxt",
+                    "type": "rpa:sequenceFlow"
+                },
+                {
+                    "targetRef": "EndEvent_1l2691k",
+                    "businessProp": {},
+                    "name": "",
+                    "tasktCommandName": "sequenceFlow",
+                    "id": "SequenceFlow_1416ron",
+                    "sourceRef": "OpenTask_1091fme",
+                    "type": "rpa:sequenceFlow"
+                }
+            ],
+            "endEvent": {
+                "incoming": "SequenceFlow_1416ron",
+                "businessProp": {},
+                "name": "End",
+                "id": "EndEvent_1l2691k",
+                "type": "rpa:endEvent"
+            },
+            "openTask": {
+                "nodeName": "OpenTask",
+                "outgoing": "SequenceFlow_1416ron",
+                "incoming": "SequenceFlow_1cboik8",
+                "businessProp": {"applicationName": "wordpad"},
+                "name": "Open Application",
+                "tasktCommandName": "StartProcessCommand",
+                "id": "OpenTask_1091fme",
+                "type": "rpa:openTask",
+                "lineNumber": 1,
+                "events": []
+            },
+            "startEvent": {
+                "outgoing": "SequenceFlow_1cboik8",
+                "businessProp": {"GlobalVariables": []},
+                "name": "Start",
+                "id": "StartEvent_g8syxt",
+                "type": "rpa:startEvent"
+            },
+            "id": "Process_1"
+        },
+        "BPMNDiagram": {
+            "bpmnElement": "Process_1",
+            "BPMNPlane": {
+                "BPMNShape": [
+                    {
+                        "bpmnElement": "StartEvent_g8syxt",
+                        "Bounds": {
+                            "cx": 124.0000010728836,
+                            "cy": 103.00000503689057,
+                            "x": 72.0000010728836,
+                            "width": 104,
+                            "y": 82.02000549465424,
+                            "height": 41.959999084472656
+                        },
+                        "id": "StartEvent_g8syxt_ve"
+                    },
+                    {
+                        "bpmnElement": "OpenTask_1091fme",
+                        "Bounds": {
+                            "cx": 238.00001719474812,
+                            "cy": 213.00000669091946,
+                            "x": 129.92001536369344,
+                            "width": 216.16000366210938,
+                            "y": 193.02000714868313,
+                            "height": 39.959999084472656
+                        },
+                        "id": "OpenTask_1091fme_ve"
+                    },
+                    {
+                        "bpmnElement": "EndEvent_1l2691k",
+                        "Bounds": {
+                            "cx": 347.00000439584255,
+                            "cy": 326.9999931159614,
+                            "x": 295.00000439584255,
+                            "width": 104,
+                            "y": 306.01999357372506,
+                            "height": 41.959999084472656
+                        },
+                        "id": "EndEvent_1l2691k_ve"
+                    }
+                ],
+                "BPMNEdge": [
+                    {
+                        "waypoint": [
+                            {
+                                "x": "124.0000010728836",
+                                "y": "123.98000549465425"
+                            },
+                            {
+                                "x": "124.0000010728836",
+                                "y": "158.5000063216687"
+                            },
+                            {
+                                "x": "238.00001536369342",
+                                "y": "158.5000063216687"
+                            },
+                            {
+                                "x": "238.00001536369342",
+                                "y": "193.02000714868313"
+                            }
+                        ],
+                        "bpmnElement": "SequenceFlow_1cboik8",
+                        "id": "SequenceFlow_1cboik8_ve"
+                    },
+                    {
+                        "waypoint": [
+                            {
+                                "x": "238.00001536369342",
+                                "y": "232.98000714868314"
+                            },
+                            {
+                                "x": "238.00001536369342",
+                                "y": "269.5000003612041"
+                            },
+                            {
+                                "x": "347.00000439584255",
+                                "y": "269.5000003612041"
+                            },
+                            {
+                                "x": "347.00000439584255",
+                                "y": "306.01999357372506"
+                            }
+                        ],
+                        "bpmnElement": "SequenceFlow_1416ron",
+                        "id": "SequenceFlow_1416ron_ve"
+                    }
+                ]
+            },
+            "id": "Process_1_ve"
+        },
+        "variables": [],
+        "collaboration": {}
+    },
+    "description": "",
+    "uiModelerVersion": "7.0.4",
+    "isValidProcess": true,
+    "responseMessage": "",
+    "tasktActions": [{
+        "nodeName": "OpenTask",
+        "outgoing": "SequenceFlow_1416ron",
+        "incoming": "SequenceFlow_1cboik8",
+        "businessProp": {"applicationName": "wordpad"},
+        "name": "Open Application",
+        "tasktCommandName": "StartProcessCommand",
+        "id": "OpenTask_1091fme",
+        "type": "rpa:openTask",
+        "lineNumber": 1,
+        "events": []
+    }]
+}
