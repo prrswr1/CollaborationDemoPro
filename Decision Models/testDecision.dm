@@ -1,11 +1,29 @@
 {
     "decisiontable": {
         "modifiedUserName": "policyadmin",
-        "lastModifiedDate": "2021-01-22T10:40:23",
+        "lastModifiedDate": "2021-01-22T11:05:58",
         "displayName": "New Decision Table",
         "hitPolicy": "UNIQUE",
         "description": "Design a new Decision Table by adding inputs and outputs.",
         "rules": [
+            {
+                "comments": "",
+                "outputEntry": [{
+                    "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
+                    "attributeName": null,
+                    "id": null,
+                    "text": ""
+                }],
+                "inputEntry": [{
+                    "domainName": "testObj",
+                    "text": "name = NO_VALUE"
+                }],
+                "operationEntry": {
+                    "isWorkflowCallable": {},
+                    "replaceEntries": [],
+                    "isWebhookCallable": {}
+                }
+            },
             {
                 "comments": "test rule",
                 "outputEntry": [{
@@ -117,7 +135,7 @@
     },
     "decisionmodel": {
         "modifiedUserName": "policyadmin",
-        "lastModifiedDate": "2021-01-22T10:38:29",
+        "lastModifiedDate": "2021-01-22T11:03:49",
         "displayName": "testDecision",
         "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
         "description": "model",
@@ -131,7 +149,7 @@
         "category": null
     },
     "namespace": {
-        "lastModifiedDate": "2021-01-22T16:08:29",
+        "lastModifiedDate": "2021-01-22T16:33:49",
         "author": "policyadmin",
         "description": "Test",
         "id": "Test"
@@ -139,7 +157,7 @@
     "itemdefinitions": [{
         "allowedValues": null,
         "domainReference": null,
-        "lastModifiedDate": "2021-01-22T10:39:04",
+        "lastModifiedDate": "2021-01-22T11:03:49",
         "externalSourceDetails": null,
         "displayName": "testObj",
         "author": "policyadmin",
@@ -149,7 +167,7 @@
         "version": 0,
         "createdOn": null,
         "parentId": null,
-        "itemId": "38785f8b-4e9e-4031-aa43-97aaf1e5492b",
+        "itemId": "dd6d339a-afcd-42bf-a6cf-a02dc9276496",
         "modifiedOn": null,
         "createdBy": null,
         "typeLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
